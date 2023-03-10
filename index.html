@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <title>website</title>
+</head>
+
+<body>
+    <div class="Navbar">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Dhiman's</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Products</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="form">
+        <span class="circle one"></span>
+        <span class="circle two"></span>
+        <form action="">
+            <h1>CONTACT US</h1>
+            <input type="text" id="name" placeholder=" YourName" required>
+            <input type="email" id="email" placeholder=" YourEmail" required>
+            <input type="number" id="number" placeholder=" YourContactNo." >
+            <textarea name="message" id="message" cols="25" placeholder="Message" rows="5" required></textarea>
+            <button class="btn btn-outline-success" type="submit" onclick="Send()">Send</button>
+        </form>
+    </div>
+    <div class="list">
+        <div class="content">
+            <img src="handbag-gd7c75f734_1920.jpg" alt="">
+            <h3>Handbag</h3>
+            <p>Classy handheld bag that comes with a key holder detachable pouch adjustable strap and much more</p>
+            <h6>Rs.1099</h6>
+            <button class="buy-1">Buy Now</button>
+        </div>
+        <div class="content">
+            <img src="hat-g4932214c7_1920.png" alt="">
+            <h3>Hat</h3>
+            <p>The one that started it all.The Paradigm Flat Brim rocks a 3D embroidered line over 70 logo on the front, </p>
+            <h6>Rs.300</h6>
+            <button class="buy-2">Buy Now</button>
+        </div>
+        <div class="content">
+            <img src="isolated-t-shirt-g10679056e_1920.png" alt="">
+            <h3>T-shirt</h3>
+            <p>Handcrafted from the finest pima cotton fabric,It is perfect to wear casually or even formally under a blazer</p>
+            <h6>Rs.400</h6>
+            <button class="buy-3">Buy Now</button>
+        </div>
+        <div class="content">
+            <img src="jeans-g15dcaf3fe_1920.jpg" alt="">
+            <h3>Jeans</h3>
+            <p>This regular fit jeans is tailored from terry wool fabric and is comfortable to wear from day to night. </p>
+            <h6>Rs.680</h6>
+            <button class="buy-4">Buy Now</button>
+        </div>
+        <div class="content">
+            <img src="laptop-g1d1d9cf93_1920.jpg" alt="">
+            <h3>Lenovo Laptop</h3>
+            <p>The Lenovo ThinkBook 14 Gen 2 laptop, thanks to advanced 10th Gen Intel® Core™ processors enhanced by AI technology.</p>
+            <h6>Rs.80000</h6>
+            <button class="buy-5">Buy Now</button>
+        </div>
+        <div class="content">
+            <img src="pexels-dina-nasyrova-3825517.jpg" alt="">
+            <h3>Airpods</h3>
+            <p>They include support for spatial audio and Dolby Atmos, IPX4 water resistance, skin detection and a case supporting MagSafe charging</p>
+            <h6>Rs.1999</h6>
+            <button class="buy-6">Buy Now</button>
+        </div>
+        <div class="content">
+            <img src="pexels-melvin-buezo-2529148.jpg" alt="">
+            <h3>Puma Shoes</h3>
+            <p>Keep the game going in the shoe that launched a movement, our Future Rider Play On Unisex Sneakers</p>
+            <h6>Rs.1289</h6>
+            <button class="buy-7">Buy Now</button>
+        </div>
+        <div class="content">
+            <img src="pexels-noah-erickson-404280.jpg" alt="">
+            <h3>Samsung A50 Mobile</h3>
+            <p>Samsung Galaxy mobile devices use One UI, a user interface based on Google's Android operating system (OS).</p>
+            <h6>Rs.14999</h6>
+            <button class="buy-8">Buy Now</button>
+        </div>
+        <div class="content">
+            <img src="pexels-pixabay-277390.jpg" alt="">
+            <h3>Adamkimmel Watch</h3>
+            <p>The Sport Band is made from a durable yet surprisingly soft high-performance fluoroelastomer, with an innovative pin-and-tuck closure.</p>
+            <h6>Rs.10000</h6>
+            <button class="buy-9">Buy Now</button>
+        </div>
+        <div class="content">
+            <img src="tv-g278ad0f12_1280.jpg" alt="">
+            <h3>Samsung Q-LED TV</h3>
+            <p>Samsung Q-LED 215 cm XR series 4K Ultra HD Smart Mini LED Google TV XR-85X95K (2022 Model) | with Dolby Vision Atmos & Alexa Compatibility</p>
+            <h6>Rs.65000</h6>
+            <button class="buy-10">Buy Now</button>
+        </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="logic.js"></script>
+</body>
+
+</html>
